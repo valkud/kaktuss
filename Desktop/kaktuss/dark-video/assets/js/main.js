@@ -778,7 +778,7 @@ video background
 
     $body.addClass('is-video');
     if (!isMobile) {
-      $video.append('<video id="video-bg" autoplay loop><source src="assets/video/cactus.mp4" type="video/mp4"></video>');
+      $video.append('<video id="video-bg" autoplay loop><source src="assets/video/Cactus.mp4" type="video/mp4"></video>');
       if (_videoMute) {
         var video = document.getElementById('video-bg');
         video.muted = true;
